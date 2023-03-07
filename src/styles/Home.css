@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    color: #666666;
+}
+.home{
+    display: flex;
+    justify-content: flex-end;
+    margin-block: 30px;
+}
+.Holder_home{
+    width: 60%;
+}
+.heading{
+    font-family:BebasNeueRegular, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 30px;
+    color: #262322;
+    /* margin-top: 20px; */
+    font-weight: 400;
+}
+.h4_header{
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: #4b4b4b;
+    line-height: 20px;
+}
+.texts{
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 15px;
+    color: #666666;
+    line-height: 20px;
+    margin-block: 10px;
+}
+.some{
+    height: auto; 
+    width: 439px;
+    object-fit: cover;
+    margin-block: 10px;
+}
+.see{
+    height: auto; 
+    width: 283px;
+    margin-block: 10px;
+}
+.days{
+    height: auto;
+    width: 391px;
+    margin-block: 10px;
+}
+.age{
+    height: auto; 
+    width: 477px;
+    margin-block: 10px;
+}
+
+@media screen and (width < 1024px) {
+    .Holder_home{
+        width: 100vw;
+        padding-inline: 5px;;
+    }
+    .texts .hr{
+        width: 100vw;
+    }
+}
+
+@media screen and (width < 480px) {
+    .age{
+        width: 300px;
+    }
+    .some{
+        width: 300px;
+    }
+    .days{
+        width: 300px;
+    }
+    .see{
+        width: 300px;
+    }
+}
+

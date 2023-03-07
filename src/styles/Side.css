@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    color: #666666;
+}
+.Side{
+    width: 100%;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+}
+.sidebar p{
+    font-size: 15px;
+    color: #666666;
+}
+.btt{
+    font-family: BebasNeueRegular, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 21px;
+    line-height: 25px;
+    color: #262322;
+    font-weight: 400;
+    margin-block: 30px;
+}
+.first{
+    height: 200px;
+    width: 200px;
+    margin-block: 30px;
+}
+.second{
+    height: auto;
+    width: 177px;
+    margin-block: 30px;
+}
+.third{
+    height: auto;
+    width: 259px;
+    margin-block: 30px;
+}
+.fourth{
+    margin-block: 10px;
+}
+@media screen and (width < 1024px) {
+    .sidebar{
+        width: 100%;
+        padding-inline: 5px;;
+    }
+}
+@media screen and (width < 480px) {
+    .first .second .third .fourth{
+        width: 300px;
+    }
+}
