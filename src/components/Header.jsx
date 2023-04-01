@@ -32,7 +32,7 @@ const Header = () => {
         {
           showSide && <div className='burger' onClick={toggleSide}>
             <div className="burger_menu1">19th International Trade Fair, Business and Investors Summit
-              <span>ITFBIS 2023 | 21-25 April 2023  l  Calgary, Canada</span>
+              <span>ITFBIS 2023 | 21-25 July 2023  l  Calgary, Canada</span>
             </div>
             <Link to="/" className="burger_menu2">Home</Link>
             <Link to="call" className="burger_menu2">Call For Exhibitors</Link>
@@ -48,7 +48,7 @@ const Header = () => {
             <div className="banner">
               <div className="h1_outer">
                 <h1 className="site_hdr">19th International Trade Fair, Business and Investors Summit</h1>
-                <h2 className="site_hdrr">ITFBIS 2023 | 21-25 April 2023  l  Calgary, Canada</h2>
+                <h2 className="site_hdrr">ITFBIS 2023 | 21-25 July 2023  l  Calgary, Canada</h2>
               </div>       
             </div>
           </div>

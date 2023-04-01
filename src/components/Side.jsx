@@ -18,9 +18,9 @@ const Side = () => {
       <div className="box_content_body">
       <div className="box_content_body_inner_2">  
         <p>
-        Registration Deadline :April 
+        Registration Deadline :July 
         <strong>1</strong>
-        <strong>, 2023</strong><br/><br/>Event Date<br/>April 21-25, 2023
+        <strong>, 2023</strong><br/><br/>Event Date<br/>July 21-25, 2023
         </p><br/><br/>
         <p>
         <strong>SPONSORS</strong>
