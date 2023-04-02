@@ -25,7 +25,7 @@ const Registration = () => {
       </ul>
       <h4 className="h4_header">Cancellation Policy</h4>
       <p className="texts">
-      We will accept cancellations on or before April 20 and refund fees less a $50 USD administrative cost. Please email Itfbiscalcinquiry@gmail.com with your request. You may transfer your registration to another person. Log-in to your registration where you will be guided to change the required information.
+      We will accept cancellations on or before July 20 and refund fees less a $50 USD administrative cost. Please email Itfbiscalcinquiry@gmail.com with your request. You may transfer your registration to another person. Log-in to your registration where you will be guided to change the required information.
       <br/><br/>
       Delegates can register and make payment of the registration fee using PayPal.
       <br/><br/>

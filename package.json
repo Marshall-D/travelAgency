@@ -1,6 +1,6 @@
 {
   "name": "new-react-app",
-  "home":"https://itfbis.space/",
+  "homepage":"https://itfbis.space/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
